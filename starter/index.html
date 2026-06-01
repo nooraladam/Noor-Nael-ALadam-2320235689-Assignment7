@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطعم الوجبة الشهية - بوتستراب 5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/image.png) no-repeat center center/cover;
+            height: 80vh;
+        }
+
+        .card-img-top {
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .col-md-4 div a i:hover {
+            color: #ffc107 !important;
+
+            transition: color 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-warning" href="#">
+                <i class="fas fa-utensils me-2"></i> الوجبة الشهية
+            </a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#hero">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">قصتنا</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">قائمة الطعام</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-section d-flex align-items-center text-center text-white pt-5">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">تذوق الفن في كل طبق</h1>
+            <p class="lead mb-4">نقدم لكم تشكيلة فاخرة من المأكولات الشرقية والغربية بأيدي أمهر الطهاة.</p>
+            <a href="#menu" class="btn btn-warning btn-lg px-4 py-2 fw-bold me-2">عرض المنيو</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-3">شغف الطهي والجودة العالية</h2>
+                    <p class="text-muted">منذ عام 2020، ونحن نلتزم بتقديم أطباق مصنوعة من مكونات طازجة ومحلية بنسبة
+                        100%. نهتم بأدق التفاصيل لنضمن لك تجربة طعام لا تُنسى في أجواء دافئة ومرحبة.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=600"
+                        alt="About Restaurant" class="img-fluid rounded-4 shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">أطباقنا المميزة</h2>
+                <p class="text-muted">اختر وجبتك المفضلة من المنيو الخاص بنا</p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
+                        <img src="images/pizza.png" class="card-img-top" alt="بيتزا">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">بيتزا إيطالية فاخرة</h5>
+                            <p class="card-text text-muted">عجينة رقيقة وهشة مع صلصة الطماطم الطازجة وجبنة الموزاريلا
+                                الغنية.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <span class="fw-bold text-primary fs-5">$12.99</span>
+                                <button class="btn btn-sm btn-outline-warning">طلب الآن</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
+                        <img src="images/burgar.png" class="card-img-top" alt="برجر">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">برجر دبل تشيز</h5>
+                            <p class="card-text text-muted">لحم بقري مشوي على اللهب مع طبقات الجبن الذائب والصلصة السرية
+                                الخاصة.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <span class="fw-bold text-primary fs-5">$9.99</span>
+                                <button class="btn btn-sm btn-outline-warning">طلب الآن</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
+                        <img src="images/yummmi.png" class="card-img-top" alt="باستا">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">باستا ألفريدو بالدجاج</h5>
+                            <p class="card-text text-muted">باستا إيطالية بصلصة الكريمة الغنية الفاخرة مع قطع الدجاج
+                                والفطر الطازج.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <span class="fw-bold text-primary fs-5">$14.50</span>
+                                <button class="btn btn-sm btn-outline-warning">طلب الآن</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4 text-center text-md-start" dir="rtl">
+
+                <div class="col-12 col-md-4 text-md-right">
+                    <h5 class="text-warning fw-bold mb-3"><i class="fas fa-utensils me-2"></i> الوجبة الشهية </h5>
+                    <p class="text-white-50 small">نحن ملتزمون بتقديم أفضل تجربة طعام لعملائنا من خلال أطباقنا المميزة
+                        والمكونات الطازجة يومياً.</p>
+                </div>
+
+                <div class="col-12 col-md-4 text-md-center">
+                    <h5 class="text-warning fw-bold mb-3"><i class="far fa-clock me-2"></i> ساعات العمل</h5>
+                    <ul class="list-unstyled text-white-50 small">
+                        <li class="mb-2">السبت - الأربعاء: 12:00 م - 11:00 م</li>
+                        <li class="mb-2">الخميس - الجمعة: 12:00 م - 01:00 ص</li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4 text-md-end">
+                    <h5 class="text-warning fw-bold mb-3"><i class="fas fa-phone-alt me-2"></i> تواصل معنا</h5>
+                    <p class="text-white-50 small mb-2"><i class="fas fa-map-marker-alt text-warning ml-2"></i> غزة،
+                        فلسطين</p>
+                    <p class="text-white-50 small mb-3"><i class="fas fa-phone text-warning ml-2"></i> +970 599 000 000
+                    </p>
+
+                    <div class="d-flex justify-content-center justify-content-md-end gap-3 fs-5">
+                        <a href="#" class="text-white-50"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-white-50"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-white-50"><i class="fab fa-twitter fa-lg"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="border-secondary mt-4 mb-3">
+            <div class="row">
+                <div class="col text-center text-white-50 small">
+                    <p class="mb-0"> مطعم الوجبة الشهية &copy; 2026 </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
